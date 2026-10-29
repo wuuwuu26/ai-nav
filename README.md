@@ -1,100 +1,102 @@
-# DevAI Hub - 极客 AI & 开发者精选高能导航站
+# DevAI Hub - Geek AI & Developer Curated Navigation
 
-> 基于 **React 19 + TypeScript + Vite 6 + Tailwind CSS v4** 构建的现代、轻量、高颜值的 AI 工具与全栈开发者导航与实用工作台。
+> **English** | [简体中文](README_CN.md)
 
----
-
-## ✨ 核心特性
-
-- 🚀 **丰富全面的 AI 资源生态**：
-  - **热门精选**：DeepSeek、Claude 3.7、Cursor、v0、Ollama、Hugging Face 等顶尖神级工具；
-  - **大模型与智能对话**：DeepSeek R1、ChatGPT、Claude、Kimi、通义千问、Perplexity、GLM-4 等；
-  - **AI 编程与 Agent 辅助**：Cursor、GitHub Copilot、v0.dev、Bolt.new、Windsurf、Trae、Replit Agent 等；
-  - **AI 绘图与多媒体创作**：Midjourney、FLUX.1、快手可灵 AI、Suno、Stable Diffusion、Runway 等；
-  - **开源大模型框架与模型库**：Hugging Face、Ollama、Dify.ai、LangChain、vLLM、ModelScope 等；
-  - **云服务与开发基础设施**：Vercel、Cloudflare、Supabase、Neon Serverless Postgres、Railway、Upstash 等；
-  - **开发者高频效率工具**：GitHub、Excalidraw、Postman / Hoppscotch、Raycast、Bundlephobia、Transform Tools 等。
-
-- 🔍 **多引擎聚合与即时全库搜索**：
-  - **站内实时筛选**：键入即刻匹配名称、描述、标签、链接；
-  - **全局快捷键**：按 `/` 键秒级聚焦搜索框；
-  - **外链引擎快速跳转**：无缝切换 DeepSeek 搜索、Google 搜索、GitHub 开源仓库搜索；
-  - **分类标签与资费过滤**：支持“免费”、“开源”、“免费体验”、“AI IDE”、“国产顶尖”等一键过滤。
-
-- ⭐ **个性化收藏与自定义收录 (LocalStorage)**：
-  - **一键收藏**：点击卡片右上角星标即可加入“我的收藏”；
-  - **自定义站点添加**：支持自行登记私有服务、内网 Wiki 或日常网站，浏览器本地持久化保存。
-
-- 🛠️ **内置开发者实用小工具箱 (离线运行，保护隐私)**：
-  - **Prompt 提示词模板库**：精选架构重构、RESTful API 规范设计、SQL 性能调优、Git Commit 规范等模板，支持在线修改与一键复制；
-  - **JSON 格式化 & 校验**：支持 2 空格/4 空格美化、单行压缩、语法校验错误高亮；
-  - **时间戳与编解码转换**：实时 Unix 时间戳互转、Base64 编解码、URL Encode/Decode。
-
-- 🎨 **现代化 UI / UX**：
-  - 完美支持 **深色模式 (Dark Mode)** 与 **浅色模式 (Light Mode)** 自由切换；
-  - 自动加载高清 Favicon，并具备渐变首字母徽标容错保护；
-  - 响应式侧边栏（移动端智能抽屉展开），回到顶部悬浮按钮。
+> A modern, lightweight, beautifully designed AI tools & full-stack developer navigation site and productivity workbench, built with **React 19 + TypeScript + Vite 6 + Tailwind CSS v4**.
 
 ---
 
-## 🛠️ 技术栈
+## ✨ Key Features
 
-- **框架**：React 19 + TypeScript
-- **构建工具**：Vite 6
-- **样式**：Tailwind CSS v4
-- **图标**：Lucide React
-- **持久化**：浏览器 LocalStorage
+- 🚀 **Rich and comprehensive AI resource ecosystem**:
+  - **Hot picks**: DeepSeek, Claude 3.7, Cursor, v0, Ollama, Hugging Face and other top-tier tools;
+  - **LLMs & chat assistants**: DeepSeek R1, ChatGPT, Claude, Kimi, Qwen, Perplexity, GLM-4, etc.;
+  - **AI coding & agent assistants**: Cursor, GitHub Copilot, v0.dev, Bolt.new, Windsurf, Trae, Replit Agent, etc.;
+  - **AI image & multimedia creation**: Midjourney, FLUX.1, Kling AI, Suno, Stable Diffusion, Runway, etc.;
+  - **Open-source LLM frameworks & model hubs**: Hugging Face, Ollama, Dify.ai, LangChain, vLLM, ModelScope, etc.;
+  - **Cloud services & dev infrastructure**: Vercel, Cloudflare, Supabase, Neon Serverless Postgres, Railway, Upstash, etc.;
+  - **High-frequency developer productivity tools**: GitHub, Excalidraw, Postman / Hoppscotch, Raycast, Bundlephobia, Transform Tools, etc.
+
+- 🔍 **Multi-engine aggregation & instant full-library search**:
+  - **Live in-site filtering**: matches names, descriptions, tags and links as you type;
+  - **Global hotkey**: press `/` to focus the search box instantly;
+  - **External engine quick jumps**: seamlessly switch between DeepSeek search, Google search and GitHub repo search;
+  - **Category tags & pricing filters**: one-click filters such as "Free", "Open Source", "Free Trial", "AI IDE", "Top Domestic".
+
+- ⭐ **Personal favorites & custom entries (LocalStorage)**:
+  - **One-click favorites**: star any card to add it to "My Favorites";
+  - **Custom site entries**: register your own private services, intranet wikis or daily sites, persisted locally in the browser.
+
+- 🛠️ **Built-in developer toolbox (runs offline, privacy-friendly)**:
+  - **Prompt template library**: curated templates for architecture refactoring, RESTful API design, SQL performance tuning, Git commit conventions, etc., editable online with one-click copy;
+  - **JSON formatter & validator**: 2-space/4-space pretty-print, single-line minify, syntax error highlighting;
+  - **Timestamp & codec conversion**: live Unix timestamp conversion, Base64 encode/decode, URL encode/decode.
+
+- 🎨 **Modern UI / UX**:
+  - Full **dark mode** and **light mode** support with free switching;
+  - Auto-loads HD favicons with a gradient initial-letter badge as fallback;
+  - Responsive sidebar (smart drawer on mobile), floating back-to-top button.
 
 ---
 
-## 🚀 快速启动
+## 🛠️ Tech Stack
 
-### 1. 进入项目目录
+- **Framework**: React 19 + TypeScript
+- **Build tool**: Vite 6
+- **Styling**: Tailwind CSS v4
+- **Icons**: Lucide React
+- **Persistence**: browser LocalStorage
+
+---
+
+## 🚀 Quick Start
+
+### 1. Enter the project directory
 ```bash
 cd ai-nav
 ```
 
-### 2. 安装依赖
+### 2. Install dependencies
 ```bash
 npm install
 ```
 
-### 3. 启动本地开发服务
+### 3. Start the local dev server
 ```bash
 npm run dev
 ```
-启动后在浏览器打开 `http://127.0.0.1:5173/` 即可访问。
+Then open `http://127.0.0.1:5173/` in your browser.
 
-### 4. 生产构建打包
+### 4. Production build
 ```bash
 npm run build
 ```
-构建产物将输出在 `dist/` 目录下，可直接部署在 **Vercel**、**Cloudflare Pages**、**GitHub Pages** 或任何静态 Web 服务器（Nginx / Caddy）上。
+Build output goes to `dist/`, ready to deploy on **Vercel**, **Cloudflare Pages**, **GitHub Pages** or any static web server (Nginx / Caddy).
 
 ---
 
-## 📁 目录结构
+## 📁 Project Structure
 
 ```text
 ai-nav/
 ├── src/
 │   ├── components/
-│   │   ├── AddSiteModal.tsx     # 自定义站点添加模态框
-│   │   ├── CategorySection.tsx  # 分类区块与卡片栅格
-│   │   ├── DevToolsModal.tsx    # 内置轻量开发工具箱 (Prompt/JSON/时间戳)
-│   │   ├── Header.tsx           # 顶部导航栏 (主题切换、工具入口)
-│   │   ├── NavCard.tsx          # 网站卡片 (Favicon/徽章/收藏/外链)
-│   │   ├── SearchBar.tsx        # 搜索与快速过滤栏
-│   │   ├── Sidebar.tsx          # 响应式分类侧边栏
-│   │   └── Toast.tsx            # 全局 Toast 提示通知
+│   │   ├── AddSiteModal.tsx     # Custom site entry modal
+│   │   ├── CategorySection.tsx  # Category sections and card grid
+│   │   ├── DevToolsModal.tsx    # Built-in lightweight dev toolbox (Prompt/JSON/timestamp)
+│   │   ├── Header.tsx           # Top navigation bar (theme toggle, toolbox entry)
+│   │   ├── NavCard.tsx          # Site card (favicon/badges/favorite/external link)
+│   │   ├── SearchBar.tsx        # Search and quick filter bar
+│   │   ├── Sidebar.tsx          # Responsive category sidebar
+│   │   └── Toast.tsx            # Global toast notifications
 │   ├── data/
-│   │   └── navData.ts           # 精选 AI 与开发者工具完整数据集
+│   │   └── navData.ts           # Full dataset of curated AI & developer tools
 │   ├── types/
-│   │   └── index.ts             # TypeScript 类型定义
-│   ├── App.tsx                  # 主页面与全局状态协调
-│   ├── index.css                # Tailwind CSS 样式
-│   └── main.tsx                 # React 入口
-├── index.html                   # HTML 模板与站点元数据
-├── vite.config.ts               # Vite 构建配置
-└── package.json                 # 项目依赖与脚本配置
+│   │   └── index.ts             # TypeScript type definitions
+│   ├── App.tsx                  # Main page and global state coordination
+│   ├── index.css                # Tailwind CSS styles
+│   └── main.tsx                 # React entry point
+├── index.html                   # HTML template and site metadata
+├── vite.config.ts               # Vite build config
+└── package.json                 # Dependencies and scripts
 ```
